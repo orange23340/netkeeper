@@ -1,0 +1,19 @@
+# 安装后才产生的文件，不该进仓库
+config.json
+netkeeper.key
+logs/
+*.bak-*
+*.bak
+
+# 发布包
+*.zip
+
+# 系统杂项
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
